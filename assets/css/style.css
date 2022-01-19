@@ -86,3 +86,25 @@ body {
   text-decoration: line-through;
   color: red;
 }
+
+/* responsivo */
+@media (max-width: 500px) {
+  .container {
+    width: 300px;
+    max-width: 350px;
+    min-width: 0;
+    padding: 20px 30px;
+  }
+  .new-task-input {
+    flex: none;
+    width: 100px;
+    font-size: 1rem;
+    padding: 6px;
+  }
+
+  .new-task-button {
+    flex: no;
+    padding: 6px;
+    margin-left: 6px;
+  }
+}
