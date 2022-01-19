@@ -2,11 +2,14 @@
 
 ## Sobre
 
-Lista de tarefas.
+Lista de tarefas com LocalStorage
 
-## Objetivo
+## Funcionalidades
 
-- **Praticar HTML, CSS e JS**
+- Criar Task;
+- Remover Task;
+- Completar Task;
+- Salva no armazenamento Local do navegador.
 
 ## Ferramentas e Tecnologias
 

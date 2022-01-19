@@ -4,10 +4,33 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./assets/css/style.css" />
     <title>ToDolist</title>
   </head>
   <body>
+    <div class="container">
+      <!-- container da criação de tarefas -->
+      <div class="new-task-container">
+        <input
+          type="text"
+          class="new-task-input"
+          placeholder="Digite sua nova tarefa"
+        />
+        <button type="submit" class="new-task-button">Adicionar</button>
+      </div>
+      <!-- container das tarefas -->
+      <div class="tasks-container"></div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/72b828f62d.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="./assets/js/script.js"></script>
   </body>
 </html>
